@@ -5,6 +5,9 @@ export let formations = data.formations
 export let partenaires = data.partenaires
 export let molengeekLogo = data.molengeekLogo
 
+export let seanceinfotitre = document.querySelectorAll(".seanceinfotitre")
+export let seanceinfop = document.querySelectorAll(".seanceinfop")
+
 export let burgericon = document.querySelector("#burgericon")
 export let burger = document.querySelector(".navbar")
 

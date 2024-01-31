@@ -193,7 +193,9 @@ body {
 .evenementimp {
   width: 100%;
   height: 800px;
-  background: red;
+  background-image: url(../assets/image/seanceinfo.png);
+  background-position: center;
+  background-size: cover;
 }
 .evenementimp .containerevent {
   height: 400px;
@@ -202,17 +204,29 @@ body {
 .evenementimp .containerevent .eventavenir {
   width: 30%;
   height: 350px;
-  background: blue !important;
+  background: #8E5197;
   border: black 1px solid;
+  transition: 0.5s ease;
+  border-radius: 15px;
+  color: white;
+}
+.evenementimp .containerevent .eventavenir:hover {
+  padding-bottom: 50px;
+  background: #ae64ba;
 }
 .evenementimp .btnrejoint {
   background: #8E5197;
   border-radius: 15px;
+  color: white;
+  font-size: smaller !important;
 }
 .evenementimp .btnrejoint h3 {
   text-align: center;
   height: 70px;
   width: 200px;
+}
+.evenementimp .btnrejoint:hover {
+  background: #ae64ba;
 }
 
 .partenaires {
