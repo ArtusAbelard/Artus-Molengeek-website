@@ -13,12 +13,9 @@ function changeslide() {
     if (numero > slide.length -1) {
         numero = 0
     }
-  
-    
     imgpartenaires.src = slide[numero]
 }
 setInterval(changeslide,1000)
-
 
 logoheader.src=molengeekLogo
 imgpartenaires.src=partenaires.bxFormation.logo
@@ -30,10 +27,6 @@ for (let i = 0; i < seanceinfotitre.length; i++) {
 for (let i = 0; i < seanceinfop.length; i++) {
     seanceinfop[i].innerText=formations.seancesInfos[i].nom
 }
-for (let i = 0; i < lespcontact.length; i++) {
-      
-} 
-console.log(lespcontact);
 lespcontact[0].innerText=molengeekinfo.name
 lespcontact[1].innerText=molengeekinfo.address
 lespcontact[2].innerText=molengeekinfo.phone
