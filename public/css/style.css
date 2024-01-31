@@ -1,0 +1,270 @@
+/* ########### FONTS ############ */
+@font-face {
+  font-family: "";
+  src: url("../assets/fonts/");
+}
+/* ############ BODY ############  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* ########### HEADER ########### */
+.logoheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 100%;
+}
+
+.navbar {
+  height: 120px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around !important;
+  border-bottom: 1px black solid;
+}
+.navbar li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.navbar li a:hover {
+  border-bottom: 1px #8E5197 solid;
+}
+
+#burgericon {
+  height: 50px;
+  width: 50px;
+  display: none !important;
+}
+
+.burger {
+  left: 0;
+}
+
+#contacternousheader {
+  font-size: calc(0.4rem + 1vw);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contacternousheader:hover {
+  border-bottom: 1px black solid;
+}
+
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+@media (max-width: 576px) {
+  .logoheader {
+    width: 100%;
+  }
+}
+/* ### TABLET ### */
+@media (max-width: 768px) {
+  #burgericon {
+    display: flex !important;
+  }
+  nav {
+    position: fixed;
+    left: -100%;
+    top: 5%;
+    flex-direction: column;
+    width: 100%;
+    height: 250px !important;
+    text-align: center;
+    transition: 0.25s;
+  }
+}
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
+/* ############ MAIN ############ */
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+/* ### TABLET ### */
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
+/* ### SECTION 1 ### */
+.banniere {
+  margin-top: 10px;
+  width: 100%;
+  height: 650px;
+  background: red;
+  background-image: url(../assets/image/imageedit_1_2461160985.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.banniere h1 {
+  width: 75%;
+  text-align: center;
+}
+
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+/* ### TABLET ### */
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
+.formation {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.formation h1 {
+  font-size: xx-large;
+  width: 400px;
+  height: 50px;
+}
+.formation p {
+  width: 80%;
+  font-size: x-large;
+  text-align: center;
+}
+.formation div {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.formation div .divformations {
+  width: 25%;
+  height: 85%;
+  border-radius: 300px;
+}
+.formation div .divformations h1 {
+  color: #a270aa;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.formation div .fomationimg1 {
+  background-image: url(../assets/image/imageedit_1_6748868503.png);
+  background-size: 100% 100%;
+}
+.formation div .fomationimg2 {
+  background-image: url(../assets/image/imageedit_1_2196269631.jpg);
+  background-size: 140% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.formation div .fomationimg3 {
+  background-image: url(../assets/image/imageedit_2_4923147579.jpg);
+  background-size: 110% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.divformations:hover {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  transition: 0, 5s;
+}
+
+.divformations:hover h1 {
+  color: black !important;
+  transition: 0, 5s;
+}
+
+.evenementimp {
+  width: 100%;
+  height: 800px;
+  background: red;
+}
+.evenementimp .containerevent {
+  height: 400px;
+  width: 90%;
+}
+.evenementimp .containerevent .eventavenir {
+  width: 30%;
+  height: 350px;
+  background: blue !important;
+  border: black 1px solid;
+}
+.evenementimp .btnrejoint {
+  background: #8E5197;
+  border-radius: 15px;
+}
+.evenementimp .btnrejoint h3 {
+  text-align: center;
+  height: 70px;
+  width: 200px;
+}
+
+.partenaires {
+  width: 100%;
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+}
+.partenaires #slider {
+  width: 30%;
+  height: 45%;
+}
+.partenaires #slider img {
+  transition: 4s;
+}
+
+.contact {
+  width: 100%;
+  height: 700px;
+  background: blue;
+}
+
+.newsletter {
+  width: 100%;
+  height: 300px;
+  background: purple;
+  gap: 10px;
+}
+.newsletter input {
+  width: 60%;
+  height: 15%;
+}
+.newsletter button {
+  width: 83px;
+  height: 43px;
+  list-style-type: none;
+  border: none;
+}
+
+/* ########### FOOTER ########### */
+footer {
+  width: 100%;
+  height: 400px;
+  background: grey;
+}
+
+/* ######### RESPONSIVE ######### */
+/* ### SMARTPHONE ### */
+/* ### TABLET ### */
+/* ### DESKTOP ### */
+/* ### BIG DESKTOP ### */
+
+/*# sourceMappingURL=style.css.map */
