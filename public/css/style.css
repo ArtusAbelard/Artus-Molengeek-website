@@ -249,8 +249,12 @@ body {
 
 .contact {
   width: 100%;
-  height: 700px;
+  height: 800px;
   background: #8E5197;
+}
+.contact .map {
+  height: 800px;
+  overflow: hidden;
 }
 
 .newsletter {
@@ -283,8 +287,28 @@ body {
 /* ########### FOOTER ########### */
 footer {
   width: 100%;
-  height: 400px;
-  background: grey;
+  height: 500px;
+}
+footer .topfooter {
+  width: 100%;
+  height: 200px;
+}
+footer .topfooter .resausociaux {
+  width: 20%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .botfooter {
+  width: 100%;
+  height: 300px;
+}
+
+.sociallink {
+  list-style-type: none;
+  text-decoration: none;
+  color: #8E5197;
 }
 
 /* ######### RESPONSIVE ######### */

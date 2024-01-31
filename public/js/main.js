@@ -1,4 +1,4 @@
-import { molengeekinfo,formations,partenaires,molengeekLogo,logoheader,burgericon,burger,imgpartenaires,seanceinfotitre,seanceinfop,lespcontact } from './instance.js'
+import { molengeekinfo,formations,partenaires,molengeekLogo,logoheader,burgericon,burger,imgpartenaires,seanceinfotitre,seanceinfop,lespcontact,logofooter,sociallink,reseauxSociaux } from './instance.js'
 
 burgericon.addEventListener("click",()=>{
     burger.classList.toggle("burger")
@@ -31,6 +31,13 @@ lespcontact[0].innerText=molengeekinfo.name
 lespcontact[1].innerText=molengeekinfo.address
 lespcontact[2].innerText=molengeekinfo.phone
 lespcontact[3].innerText=molengeekinfo.email
+
+logofooter.src=molengeekLogo
+
+sociallink[0].href=reseauxSociaux.facebook
+sociallink[1].href=reseauxSociaux.twitter
+sociallink[2].href=reseauxSociaux.instagram
+sociallink[3].href=reseauxSociaux.linkedin
 
 
 
