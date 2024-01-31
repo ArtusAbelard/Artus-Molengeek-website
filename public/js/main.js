@@ -1,4 +1,4 @@
-import { molengeekinfo,formations,partenaires,molengeekLogo,logoheader,burgericon,burger,imgpartenaires,seanceinfotitre,seanceinfop } from './instance.js'
+import { molengeekinfo,formations,partenaires,molengeekLogo,logoheader,burgericon,burger,imgpartenaires,seanceinfotitre,seanceinfop,lespcontact } from './instance.js'
 
 burgericon.addEventListener("click",()=>{
     burger.classList.toggle("burger")
@@ -30,14 +30,17 @@ for (let i = 0; i < seanceinfotitre.length; i++) {
 for (let i = 0; i < seanceinfop.length; i++) {
     seanceinfop[i].innerText=formations.seancesInfos[i].nom
 }
+for (let i = 0; i < lespcontact.length; i++) {
+      
+} 
+console.log(lespcontact);
+lespcontact[0].innerText=molengeekinfo.name
+lespcontact[1].innerText=molengeekinfo.address
+lespcontact[2].innerText=molengeekinfo.phone
+lespcontact[3].innerText=molengeekinfo.email
 
 
-// console.log(formations.formationsLongues);
-// console.log(formations.formationsCourtes);
 
-
-console.log(formations.seancesInfos[0].date);
-console.log(seanceinfotitre[0]);
 
 
 
