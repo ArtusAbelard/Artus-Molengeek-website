@@ -4,16 +4,6 @@
   src: url("../assets/fonts/");
 }
 /* ############ BODY ############  */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-  overflow-x: hidden;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
   background-color: #FFFFFF;
   font-family: Arial, Helvetica, sans-serif;
@@ -138,6 +128,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.baniereformation {
+  width: 100%;
+  height: 600px;
+  background-image: url(../assets/image/baniereformation.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /* ######### RESPONSIVE ######### */
 /* ### SMARTPHONE ### */
 /* ### TABLET ### */
@@ -241,6 +240,49 @@ body {
   list-style-type: circle !important;
   margin-right: 275px;
   font-size: large;
+}
+
+.lesformations {
+  width: 100%;
+  height: 1000px;
+}
+.lesformations div {
+  gap: 50px;
+}
+.lesformations div button {
+  width: 300px;
+  height: 60px;
+  border: none;
+  border-radius: 25px;
+  background: black;
+  color: white;
+}
+.lesformations div button:hover {
+  border: white 1px solid;
+}
+.lesformations div #formlongues {
+  background: #8E5197;
+}
+.lesformations .fromcourtes {
+  background: black;
+  width: 80%;
+  height: 850px;
+  border-radius: 25px;
+}
+.lesformations .formlongues {
+  background: #8E5197;
+  width: 80%;
+  height: 850px;
+  border-radius: 25px;
+  display: none;
+}
+
+.lesli {
+  height: 60px;
+}
+
+.cardformlongue {
+  height: 30px !important;
 }
 
 .evenementimp {

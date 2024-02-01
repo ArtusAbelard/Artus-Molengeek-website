@@ -1,4 +1,4 @@
-import { molengeekinfo,formations,partenaires,molengeekLogo,logoheader,burgericon,burger,imgpartenaires,seanceinfotitre,seanceinfop,lespcontact,logofooter,sociallink,reseauxSociaux } from './instance.js'
+import { molengeekinfo,partenaires,molengeekLogo,logoheader,burgericon,burger,imgpartenaires,seanceinfotitre,seanceinfop,lespcontact,logofooter,sociallink,reseauxSociaux } from './instance.js'
 
 burgericon.addEventListener("click",()=>{
     burger.classList.toggle("burger")
@@ -43,8 +43,14 @@ console.log(sociallink);
 
 
 
+// !page formation :  
 
 
+// titreformcourte[0].innerHTML=formations.formationsCourtes[0].nom
+
+
+
+// console.log(formations.formationsCourtes[0].nom);
 
 
 
