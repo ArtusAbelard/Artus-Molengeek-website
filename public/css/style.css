@@ -336,6 +336,11 @@ body {
   background-attachment: fixed;
 }
 
+.videofirst {
+  width: 100%;
+  height: 600px;
+}
+
 .partenaires {
   width: 100%;
   height: 500px;
