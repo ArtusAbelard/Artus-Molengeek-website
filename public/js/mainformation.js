@@ -1,4 +1,4 @@
-import { titreformcourte,formations,pack,buttonformation,fromcourtes,formlongues,firstli,li2,li3,li4,li5,li6,titrelongues } from "./instance.js";
+import { titreformcourte,formations,pack,buttonformation,fromcourtes,formlongues,firstli,li2,li3,li4,li5,li6,titrelongues,testimonial1,videosTemoignage,faq } from "./instance.js";
 
 for (let i = 0; i < titreformcourte.length; i++) {
     titreformcourte[i].innerHTML=formations.formationsCourtes[i].nom 
@@ -12,6 +12,8 @@ buttonformation[1].addEventListener('click', ()=>{
     fromcourtes[0].style.display="none"
     formlongues[0].style.display="block"
 })
+
+
 console.log(formations.formationsLongues.codingSchool.nom);
 
 
@@ -56,6 +58,9 @@ li6[1].innerHTML=formations.formationsLongues.marketingDigital.condition.horaire
 li6[2].innerHTML=formations.formationsLongues.webmaster360.condition.horaire
 li6[3].innerHTML=formations.formationsLongues.aws.condition.horaire
 li6[4].innerHTML=formations.formationsLongues.salesforceAdmin.condition.horaire
+
+testimonial1[0].src=videosTemoignage.videoI
+testimonial1[1].src=videosTemoignage.videoII
 
 
 

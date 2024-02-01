@@ -5,6 +5,8 @@ export let formations = data.formations
 export let partenaires = data.partenaires
 export let molengeekLogo = data.molengeekLogo
 export let reseauxSociaux = data.reseauxSociaux
+export let videosTemoignage = data.videosTemoignage
+export let faq = data.FAQ
 
 export let seanceinfotitre = document.querySelectorAll(".seanceinfotitre")
 export let seanceinfop = document.querySelectorAll(".seanceinfop")
@@ -22,6 +24,7 @@ export let li3 = document.querySelectorAll(".li3")
 export let li4 = document.querySelectorAll(".li4")
 export let li5 = document.querySelectorAll(".li5")
 export let li6 = document.querySelectorAll(".li6")
+export let testimonial1 = document.querySelectorAll(".testimonial1")
 
 export let sociallink = document.querySelectorAll(".sociallink")
 
