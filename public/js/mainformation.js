@@ -62,9 +62,6 @@ li6[4].innerHTML=formations.formationsLongues.salesforceAdmin.condition.horaire
 testimonial1[0].src=videosTemoignage.videoI
 testimonial1[1].src=videosTemoignage.videoII
 
-faqli1
-faqli
-faq 
 
 faqli[0].innerHTML=faq.questionI
 faqli[1].innerHTML=faq.questionII
@@ -72,13 +69,10 @@ faqli[2].innerHTML=faq.questionIII
 faqli[3].innerHTML=faq.questionIV
 faqli[4].innerHTML=faq.questionV
 
-faqli1[0].innerHTML=faq.reponseI
+faqli1[0].innerHTML=faq.questionI   
 faqli1[1].innerHTML=faq.reponseII
 faqli1[2].innerHTML=faq.reponseIII
 faqli1[3].innerHTML=faq.reponseIV
 faqli1[4].innerHTML=faq.reponseV
-
-
-
 
 
