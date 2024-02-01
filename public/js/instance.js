@@ -25,6 +25,8 @@ export let li4 = document.querySelectorAll(".li4")
 export let li5 = document.querySelectorAll(".li5")
 export let li6 = document.querySelectorAll(".li6")
 export let testimonial1 = document.querySelectorAll(".testimonial1")
+export let faqli = document.querySelectorAll(".faqli")
+export let faqli1 = document.querySelectorAll(".faqli1")
 
 export let sociallink = document.querySelectorAll(".sociallink")
 
