@@ -1,4 +1,4 @@
-import { molengeekinfo,partenaires,molengeekLogo,logoheader,burgericon,burger,imgpartenaires,seanceinfotitre,seanceinfop,lespcontact,logofooter,sociallink,reseauxSociaux } from './instance.js'
+import { molengeekinfo,partenaires,molengeekLogo,logoheader,burgericon,burger,imgpartenaires,seanceinfotitre,seanceinfop,lespcontact,logofooter,sociallink,reseauxSociaux,formations } from './instance.js'
 
 burgericon.addEventListener("click",()=>{
     burger.classList.toggle("burger")
