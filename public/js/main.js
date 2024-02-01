@@ -39,6 +39,10 @@ sociallink[1].href=reseauxSociaux.twitter
 sociallink[2].href=reseauxSociaux.instagram
 sociallink[3].href=reseauxSociaux.linkedin
 
+console.log(sociallink);
+
+
+
 
 
 
