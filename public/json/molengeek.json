@@ -202,6 +202,10 @@
         "meta": {
             "nom": "Meta",
             "logo": "https://molengeek.com/wp-content/uploads/2022/02/Meta-Logo-300x169.png"
+        },
+        "cactus": {
+            "nom": "cactus",
+            "logo": "https://media.licdn.com/dms/image/C4E03AQH04zVaWecqgg/profile-displayphoto-shrink_800_800/0/1631018502253?e=2147483647&v=beta&t=s3slw5dztKZBnETDqezDXGV-M3rPmvFvjVf3rRDbTyU"
         }
     },
     "reseauxSociaux": {

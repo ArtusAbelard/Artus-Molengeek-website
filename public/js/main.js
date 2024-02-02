@@ -5,7 +5,7 @@ burgericon.addEventListener("click",()=>{
     
 })
 
-let slide=[partenaires.bxFormation.logo,partenaires.pwc.logo,partenaires.aws.logo,partenaires.Microsoft.logo,partenaires.google.logo,partenaires.proximus.logo,partenaires.actiris.logo,partenaires.meta.logo]
+let slide=[partenaires.bxFormation.logo,partenaires.pwc.logo,partenaires.aws.logo,partenaires.Microsoft.logo,partenaires.google.logo,partenaires.proximus.logo,partenaires.actiris.logo,partenaires.meta.logo,partenaires.cactus.logo]
 let numero = 0 
 
 function changeslide() {
